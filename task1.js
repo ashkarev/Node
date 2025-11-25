@@ -24,46 +24,46 @@ const todo = [
 ];
 
 const course = {
-//   courseId: "CS101",
-//   title: "Introduction to Computer Science",
-//   instructor: {
-//     firstName: "Alice",
-//     lastName: "Smith",
-//     email: "alice.smith@example.com",
-//   },
-//   description:
-//     "This course provides a foundational understanding of computer science principles, including programming concepts, data structures, and algorithms.",
-//   durationWeeks: 12,
-//   difficulty: "Beginner",
-//   modules: [
-//     {
-//       moduleId: "MOD001",
-//       title: "Programming Fundamentals",
-//       lessons: [
-//         { lessonId: "LES001", title: "Variables and Data Types" },
-//         { lessonId: "LES002", title: "Control Flow Statements" },
-//       ],
-//     },
-//     {
-//       moduleId: "MOD002",
-//       title: "Data Structures",
-//       lessons: [
-//         { lessonId: "LES003", title: "Arrays and Linked Lists" },
-//         { lessonId: "LES004", title: "Trees and Graphs" },
-//       ],
-//     },
-//     {
-//       moduleId: "MOD003",
-//       title: "Algorithms",
-//       lessons: [
-//         { lessonId: "LES005", title: "Sorting Algorithms" },
-//         { lessonId: "LES006", title: "Searching Algorithms" },
-//       ],
-//     },
-//   ],
-//   prerequisites: ["Basic math skills"],
-//   tags: ["computer science", "programming", "education", "online course"],
-// };
+  courseId: "CS101",
+  title: "Introduction to Computer Science",
+  instructor: {
+    firstName: "Alice",
+    lastName: "Smith",
+    email: "alice.smith@example.com",
+  },
+  description:
+    "This course provides a foundational understanding of computer science principles, including programming concepts, data structures, and algorithms.",
+  durationWeeks: 12,
+  difficulty: "Beginner",
+  modules: [
+    {
+      moduleId: "MOD001",
+      title: "Programming Fundamentals",
+      lessons: [
+        { lessonId: "LES001", title: "Variables and Data Types" },
+        { lessonId: "LES002", title: "Control Flow Statements" },
+      ],
+    },
+    {
+      moduleId: "MOD002",
+      title: "Data Structures",
+      lessons: [
+        { lessonId: "LES003", title: "Arrays and Linked Lists" },
+        { lessonId: "LES004", title: "Trees and Graphs" },
+      ],
+    },
+    {
+      moduleId: "MOD003",
+      title: "Algorithms",
+      lessons: [
+        { lessonId: "LES005", title: "Sorting Algorithms" },
+        { lessonId: "LES006", title: "Searching Algorithms" },
+      ],
+    },
+  ],
+  prerequisites: ["Basic math skills"],
+  tags: ["computer science", "programming", "education", "online course"],
+};
 
 const server = http.createServer((req, res) => {
   if (req.url == "/getRecipe") {
