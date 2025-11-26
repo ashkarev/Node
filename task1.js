@@ -66,7 +66,7 @@ const course = {
 };
 
 const server = http.createServer((req, res) => {
-  if (req.url == "/getRecipe") {
+  if (req.url == "/getRecipe"   ) {
     let obj = {
       recipes: [
         {
